@@ -1,0 +1,260 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header styling */
+.container{
+    margin: 0;
+    width: 100%;
+    height: 92px;
+    background-color: rgba(0, 0, 255,0.75);
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 10px;
+
+}
+ .image{
+    height: 62px;
+    width: 78px;
+    margin-top: 5px;
+    margin-left: 19px;
+}
+
+.header-container nav{
+    margin-left: -579px;
+    margin-top: 25px;
+    padding: 3px;
+}
+
+.header-container nav a{
+    margin-left: 44px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.header-container button{
+    border: 2px solid white;
+    border-radius: 26px;
+    width: 191px;
+    height: 32px;
+    margin-right: 27px;
+    margin-top: 16px;
+    background-color: rgba(0, 0, 255,0.795);
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 7px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: white;
+    transition: ease-in-out;
+    color: rgba(0, 0, 255,0.795);
+}
+
+
+/* content-box1 styling */
+.content-box1{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.937));
+    background-attachment: fixed;
+    
+}
+
+.img1{
+    margin: 0;
+    width: 80%;
+    height: 100%;
+    margin-left: 150px;
+    border: 1px solid  black;
+
+}
+
+/* content-box2 styling */
+.content-box2{
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+    height: 85vh;
+    background-image: url("./Tablet_Background.png");
+    background-repeat: no-repeat;
+    background-position:  inherit;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 31px;
+}
+.img2{
+    width: 50%;
+    margin-left: 200px;
+    
+    
+}
+.img2 img{
+    width: 450px;
+    height: 600px;
+    float: left;
+    
+}
+.text-content{
+    float: left;
+    margin-left: 40px;
+    width: 500px;
+    height: 450px;
+    padding: 10px;
+    margin-top: 130px;
+}
+.text-content img{
+    width: 400px;
+    height: 200px;
+}
+.text-content p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 43px;
+    margin-top: 0;
+}
+
+.text-content button{
+    border: 2px solid white;
+    border-radius: 26px;
+    width: 191px;
+    height: 32px;
+    margin-right: 27px;
+    margin-top: 0;
+    background-color: rgba(0, 0, 255,0.795);
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 7px;
+    cursor: pointer;
+    margin-left: 90px;
+
+}
+
+.text-content button:hover{
+    background-color: white;
+    transition: ease-in-out;
+    color: rgba(0, 0, 255,0.795);
+}
+
+/* content-box3 styling */
+.content-box3{
+    width: 100%;
+    margin: 0;
+    background-color: rgba(0, 0, 255, 0.774);
+    display: flex;
+}
+.image-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.image-wrapper .img3{
+    margin-left: 50px;
+    width: 500px;
+    height: 270px;
+    margin-top: -23px;
+}
+.img3 img{
+    width: 435px;
+    height: 220px;
+}
+.img3 h3{
+    background-color:#1437bf;
+    margin-top: 0;
+    height: 30px;
+    width: 435px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+}
+.image-wrapper .img4{
+    margin-left: 50px;
+    margin-top: -160px;
+    width: 500px;
+    height: 270px;
+}
+.img4 img{
+    width: 435px;
+    height: 220px;
+
+}
+.img4 h3{
+    background-color:#1437bf;
+    margin-top: 0;
+    height: 30px;
+    width: 435px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+
+}
+.banner{
+    margin-left: -30px;
+    background-image: url(./couples\ pepsi1.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: inherit;   
+}
+.banner .background-setter{
+    width:100% ;
+    height: 253px;
+    text-align: right;
+    margin-top: 570px;
+
+}
+.background-setter img{
+    width: 490px;
+    height: 165px;
+}
+
+/* content-box4 styling */
+.content-box4{
+    width: 100%;
+    margin: 0;
+    background-image: url("./mango\ org1.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    position: absolute;
+    
+}
+
+.outer-class{
+    width: 685px;
+    height: 510px;
+    margin: 0;
+    margin-left: 40px;
+    margin-top: 90px;
+}
+
+.outer-class img{
+    width:460px ;
+    height: 320px;
+}
